@@ -1,0 +1,92 @@
+baseURL                   = "https://sketches.netlify.com"
+builddrafts                = false
+languageCode               = "zn-Hans"
+canonifyurls               = true
+contentdir                 = "content"
+layoutdir                  = "layouts"
+publishdir                 = "public"
+enableEmoji                = true
+hasCJKLanguage             = true
+summaryLength              = 200
+Paginate                   = 3
+
+theme                      = "AllinOne"
+title                      = "Hunis"
+
+pygmentsuseclasses         = true
+
+
+[permalinks]
+  blog                     = "blog/:year-:month/:slug/"
+
+
+[taxonomies]
+  tag                      = "tags"
+  series                   = "series"
+  category                 = "categories"
+
+
+[menu]
+  [[menu.main]]
+    name                   = "Articles"
+    weight                 = -120
+    identifier             = "Articles"
+    url                    = "articles/"  
+
+  [[menu.main]]
+    name                   = "Blog"
+    weight                 = -100
+    identifier             = "Blog"
+    url                    = "blog/" 
+
+  [[menu.main]]
+    name                   = "Moment"
+    weight                 = -110
+    identifier             = "Moment"
+    url                    = "moment/" 
+
+  [[menu.main]]
+    name                   = "About"
+    weight                 = -90
+    identifier             = "About"
+    url                    = "about/"  
+
+ 
+
+[params]
+  faviconfile              = "img/avatar.jpg"               # from static/
+  avatar                   = "img/avatar.jpg"             # path to image in static dir e.g img/avatar.png 
+  author                   = "Hunis"
+  description              = ["Beauty.", "Every day is a new blessing.", "Meet new stories and yourself."]           # appears in the site header when set to a non-empty string
+  welcome_head             = "Hi, you here ."
+  welcome_word             = "Become immortal !"
+
+  latestpostscount         = 5                             # how many posts to display on the home page
+  bloggroupby              = 'month'
+  dateform                 = "Jan 2, 2006"
+  dateformfull             = "2006-01-02  Monday  15:04:05"
+  noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
+
+  # slides
+  slidesDirPath            = "themes/AllinOne/static/img/header-slides"    # path to image in local dir (path for hugo)
+  slidesDirPathURL         = "img/header-slides"    # path to image in static dir (for static pages)
+
+  # highlighting 
+  highlightjs              = true
+
+  # latex
+  katex                    = true
+
+  # links
+  email                    = "Ysc2019@qq.com"
+  github                   = "yshch2008//github.com/yshch2008"
+  linkedin                 = "//linkedin.com/in/hunis-2018"
+  facebook                 = "//facebook.com/shuaicheng.yin"
+  twitter                  = "//twitter.com/ShuaichengY" 
+  instagram                = "//instagram.com/yshch2008"
+  include_rss              = true                          # include RSS <link> tag in <head> and show RSS icon
+  
+  # analytics
+  googleAnalytics          = "your-google-analytic-id"
+    
+    
