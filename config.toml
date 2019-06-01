@@ -1,4 +1,4 @@
-baseURL                   = "https://sketches.netlify.com"
+baseURL                   = "https://hunis.netlify.com"
 builddrafts                = false
 languageCode               = "zn-Hans"
 canonifyurls               = true
