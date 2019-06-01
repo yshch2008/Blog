@@ -3,8 +3,8 @@ date: "2014-04-12T18:23:59+08:00"
 publishdate: "2019-2-28+08:00"
 lastmod: "2019-2-28+08:00"
 draft: false
-title: "C#版本特性"
-tags: ["修行", "c#", "基础"]
+title: "C++++版本特性"
+tags: ["修行", "c++++", "基础"]
 series: ["技术"]
 categories: ["学习"]
 toc: true
