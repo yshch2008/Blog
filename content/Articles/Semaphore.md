@@ -1,7 +1,7 @@
 ---
-date: "2019-5-17+08:00"
-publishdate: "2019-5-17+08:00"
-lastmod: "2019-5-17+08:00"
+date: "2019-05-17+08:00"
+publishdate: "2019-05-17+08:00"
+lastmod: "2019-05-17+08:00"
 draft: false
 title: "Semaphore"
 tags: ["修行", "Java", "并发编程"]

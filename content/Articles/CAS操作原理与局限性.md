@@ -1,7 +1,7 @@
 ---
-date: "2019-4-30+08:00"
-publishdate: "2019-4-30+08:00"
-lastmod: "2019-4-30+08:00"
+date: "2019-04-30+08:00"
+publishdate: "2019-04-30+08:00"
+lastmod: "2019-04-30+08:00"
 draft: false
 title: "CAS操作原理与局限性"
 tags: ["修行", "Java", "并发编程"]

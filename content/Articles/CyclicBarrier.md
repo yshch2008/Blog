@@ -1,7 +1,7 @@
 ---
-date: "2019-5-19+08:00"
-publishdate: "2019-5-19+08:00"
-lastmod: "2019-5-19+08:00"
+date: "2019-05-19+08:00"
+publishdate: "2019-05-19+08:00"
+lastmod: "2019-05-19+08:00"
 draft: false
 title: "CyclicBarrier"
 tags: ["修行", "Java", "并发编程"]
