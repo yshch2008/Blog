@@ -1,7 +1,7 @@
 ---
 date: "2019-03-28+08:00"
 publishdate: "2019-03-28+08:00"
-lastmod: "2019-03-28+08:00"
+lastmod: "2019-05-28+08:00"
 draft: false
 title: "BlockingQueue"
 tags: ["修行", "Java", "并发编程"]
