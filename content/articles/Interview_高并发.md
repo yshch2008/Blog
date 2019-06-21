@@ -1,3 +1,6 @@
+## java.util.concurrent
+原理就是volatile语义和CAS操作
+
 ### 1. HashMap原理：set get过程，rehash过程等，HashMap的缺陷，HashMap的JDK8实现原理，
 顶层是数组，每个元素叫一个tab，tab以链表的形式存储实际键值对Entry
 先用key的hash值对数组长度模运算取余数，确定将存在哪个tab，然后加到tab中链表的尾部
