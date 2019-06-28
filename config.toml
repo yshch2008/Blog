@@ -1,8 +1,8 @@
 baseurl = "Hunis.netlify.com"
 languageCode = "en-us"
-Title = "Your site title"
+Title = "Hunis' blog"
 # Copyright notice. This is displayer in the footer.
-copyright = "&copy; Copyright notice"
+copyright = "&copy; Shuaicheng,Yin need be protected.S"
 custom_css = "/static/css/custom.css"
 
 [params]
@@ -29,20 +29,20 @@ custom_css = "/static/css/custom.css"
   disqus = ""
   # Google Analytics API key.
   ga_api_key = "Your Google Analytics tracking id"
-  author = "Your Name"
-  authorwebsite = "example.com"
+  author = "Hunis"
+  authorwebsite = "yshch.netlify.com"
   avatar = "/path/to/avatar"
-  contact = "Your contact link (ex. mailto:foo@example.com)"
+  contact = "mailto:yshch2018@163.com"
   bio = "Your short bio"
   # Short subtitle/tagline. This is displayed in the header.
-  subtitle = "Short subtitle"
+  subtitle = "Blalala"
   # Logo image. This is displayed ogp image.
   logo = "/path/to/logo"
   favicon = "/path/to/favicon"
 
 [[menu.main]]
     name = "Blog"
-    url = "/"
+    url = "/Blog"
     weight = 1
 
 [[menu.main]]
