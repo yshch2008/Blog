@@ -42,7 +42,7 @@ custom_css = "/static/css/custom.css"
 
 [[menu.main]]
     name = "Blog"
-    url = "/Blog"
+    url = "/content/Blog"
     weight = 1
 
 [[menu.main]]
