@@ -53,7 +53,7 @@ openServer方法会根据key（ip+port）判断server是否存在，不存在则
 2. 配置层（config）：对外配置接口，以serviceConfig和RefrenceConfig为中心，可以直接new处配置类，也可以通过spring解析配置生成配置类
 3. 服务代理层（proxy）：服务接口透明代理，生成服务的客户端Stub和服务端Skeleton，以serviceProxy为中心，扩展接口为ProxyFactory
 4. 服务注册层（Registry）：封装服务地址的注册于发现，以服务URL为中心，扩展接口为RegistryFactory、Registry和RegistryService；也可以没有注册中心，服务方直接暴露服务给消费者
-5. 集群层（Cluster）：封装多个提供者的路由及负载均衡，并桥接注册中心，以Invoker为中心，扩展接口为Cluster、Derectory、Router和LoadBalance。将多个服务提供方组合为一个，使得消费者能够透明的调用服务，根据负载均衡策略选取一个具体Invoker为消费者提供服务
+5. 集群层（Cluster）：封装多个提供者的路由及负载均衡，并桥接注册中心，以Invoker为中心，扩展接口为Cluster、Directory、Router和LoadBalance。将多个服务提供方组合为一个，使得消费者能够透明的调用服务，根据负载均衡策略选取一个具体Invoker为消费者提供服务
 6. 监控层（Monitor）：RPC调用次数和调用时间监控，以Statistics为中心，扩展接口为MonitorFactory、Monitor和MonitorService。
 7. 远程调用层（Protocol）：封装RPC调用，以Invocation和Result为中心，扩展接口为Protocol、Invoker和Exporter。Invoker是对象的实体，是核心模型，其他模型也将转换成它，是一个可执行体，可以是本地、集群、远程的方法调用。
 8. 信息交换层（Exchange）：封装请求响应模式，同步转异步，以Request和Response为中心，扩展接口为Exchanger、ExchangeChannel、ExchangeClient、ExchangeServer
